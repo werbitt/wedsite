@@ -14,6 +14,6 @@ function initMap() {
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
 
-    initMap();
+    //initMap();
   }); // end of document ready
 })(jQuery); // end of jQuery name space
