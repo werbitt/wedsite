@@ -1,6 +1,18 @@
+body {
+    background-color: floralwhite;
+}
+
+nav {
+    background-color: floralwhite;
+}
+
+.side-nav {
+    background-color: floralwhite;
+}
+
 .brand-logo {
-  font-family: "Alice", serif;
-  min-width: 214px;
+    font-family: "Alice", serif;
+    min-width: 214px;
 }
 
 h4 {
