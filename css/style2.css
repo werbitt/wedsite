@@ -44,6 +44,9 @@ h4 {
 
 #registry-links .card.medium {
     height: 100%;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #registry-links .card.medium .card-content {
