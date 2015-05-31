@@ -60,3 +60,8 @@ h4 {
     height: 100%;
     width: auto;
 }
+
+#reshi {
+    height: 200px;
+    min-height: 200px;
+}
