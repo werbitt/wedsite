@@ -11,9 +11,9 @@ function initMap() {
 (function($){
   $(function(){
 
-    $('.button-collapse').sideNav();
+    $('.button-collapse').sideNav({closeOnClick: true});
     $('.parallax').parallax();
-
+    $('.scrollspy').scrollSpy();
     //initMap();
   }); // end of document ready
 })(jQuery); // end of jQuery name space
