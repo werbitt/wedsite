@@ -106,6 +106,14 @@ h4 {
     width: auto;
 }
 
+#registry-links a {
+    color: #333;
+}
+
+#registry-links a:hover {
+    color: #039BE5;
+}
+
 #reshi {
     height: 200px;
     min-height: 200px;
