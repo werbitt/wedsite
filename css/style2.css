@@ -53,8 +53,15 @@ h4 {
     height: 200px;
 }
 
+#accommodations {
+    margin-bottom: 0;
+    padding-bottom: 0px;
+}
+
 #directions {
+    margin-top: 0px;
     margin-bottom: 0px;
+    padding-top: 0px;
 }
 
 #map-canvas {
@@ -69,53 +76,53 @@ h4 {
     pointer-events: none;
 }
 
-#registry-links .card {
+.card {
     height: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
 }
 
-#registry-links .card.medium {
+.card.medium {
+    height: 100%;
     max-width: 300px;
 }
 
-#registry-links .card.small {
+.card.small {
+    height: 100%;
     max-width: 200px;
 }
 
-#registry-links .card .card-content {
+.card.small h5 {
+    font-size: 1.3rem;
+}
+
+.card .card-content {
     border-top: 1px solid #eee;
 }
 
-#registry-links .card.medium .card-content {
+.card.medium .card-content {
     height: 100px;
 }
 
-#registry-links .card.small .card-content {
+.card.small .card-content {
     height: 75px;
     padding: 10px;
 }
 
-#registry-links .card .card-content .valign-wrapper {
+.card .card-content .valign-wrapper {
     height: 100%;
 }
 
-#registry-links .card .card-image img {
+.card .card-image img {
     height: 100%;
     width: auto;
 }
 
-#registry-links a {
+.card a {
     color: #333;
 }
 
-#registry-links a:hover {
+.card a:hover {
     color: #039BE5;
-}
-
-#reshi {
-    height: 200px;
-    min-height: 200px;
-    margin-top: 100px;
 }
