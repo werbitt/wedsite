@@ -6,6 +6,38 @@ nav {
     background-color: floralwhite;
 }
 
+
+@media only screen and (min-width : 992px) {
+    .nav-wrapper {
+        text-align: center;
+    }
+
+    nav .brand-logo {
+        display: block;
+        position: relative;
+    }
+    nav {
+        height: 112px;
+    }
+    .navbar-fixed {
+        height: 112px;
+    }
+    nav ul {
+        text-align: center;
+        margin-top: -15px;
+    }
+
+    nav ul.right {
+        float: none !important;
+    }
+
+    nav ul li {
+        float: none;
+        display: inline-block;
+    }
+}
+
+
 .button-collapse {
     margin-left: 10px;
 }
